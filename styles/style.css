@@ -99,3 +99,39 @@ ul li {
 .text-container p {
     margin-bottom: 33px;
 }
+
+/* ..................style feature section.... */
+.feature-section {
+    display: flex;
+
+}
+
+.feature-containers h2 {
+    border-left: 3px solid #FF900E;
+}
+
+.feature-containers p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.feature-container {
+    width: 550px;
+    height: 110px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+
+.feature-container h3 {
+    font-size: 20px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+
+}
+
+.feature-container p {
+    color: #727272;
+}

@@ -17,7 +17,7 @@
     width: 180px;
     color: white;
     height: 64px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .primary-text {
@@ -36,7 +36,7 @@
 /*...................................... style header  */
 header {
     background-color: #FF900E1A;
-    height: 1250px;
+    height: 1210px;
 }
 
 /* ..........style nav ........ */
@@ -154,11 +154,11 @@ ul li {
 
 .year-btn {
 
-    width: 342px;
-    height: 200px;
+    width: 300px;
+    height: 170px;
     font-size: 25px;
     position: relative;
-    top: -200px;
+    top: -170px;
 }
 
 .feature-container h3 {
@@ -236,6 +236,7 @@ ul li {
 
 .sponcor-header {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .sponcor-icons {
@@ -286,4 +287,170 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #FFF4E7;
+}
+
+/* responcive for mobile ...................... */
+@media only screen and (max-width:576px) {
+
+    /*primary-styles  */
+    .primary-btn {
+        width: 90px;
+        height: 54px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .primary-titles {
+        font-size: 27px;
+    }
+
+    /* style header  */
+    header {
+        height: 1000px;
+        width: 576px;
+    }
+
+    /* nav style */
+    .nav {
+        display: block;
+    }
+
+    nav h2 {
+        margin-top: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+
+    }
+
+    /* banner-style */
+    .banner-container {
+        display: flex;
+
+        flex-wrap: wrap;
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .banner h1 {
+        font-size: 35px;
+    }
+
+    .banner-text {
+        font-size: 16px;
+    }
+
+    .banner {
+        padding: 20px;
+    }
+
+    /* style quick section  */
+    .quick-section {
+        display: block;
+        align-items: center;
+        margin: 60px 5px 90px 35px;
+
+    }
+
+    .img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-right: 30px;
+        margin-bottom: 40px;
+    }
+
+    .text-container {
+        text-align: left;
+    }
+
+    /* style future-section */
+    .feature-section {
+        display: block;
+        gap: 20px;
+        /* align-items: center; */
+        margin-left: 35px;
+        padding-left: 10px;
+    }
+
+    .feature-container {
+        width: 380px;
+        height: 160px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 30px;
+        margin-bottom: 20px;
+        padding: 15px;
+        padding-right: 7px;
+    }
+
+    .feature-containers h2 {
+        font-size: 27px;
+        padding-left: 5px;
+    }
+
+    .feature-section img {
+        width: 308px;
+        height: 582px;
+
+        margin-right: 130px;
+
+    }
+
+    /* style some section  */
+    .some-section {
+        width: 100%;
+        margin: 0px 0px 180px 35px;
+
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        margin-left: 30px;
+    }
+
+    /* style sponcor section  */
+    .sponcor-section {
+        margin-left: 35px;
+        margin-bottom: 100px;
+    }
+
+    .sponcor-header {
+        text-align: justify;
+    }
+
+    .sponcor-icons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 27px;
+
+    }
+
+    /* .about-container style  */
+    .about-section {
+
+        margin-left: 35px;
+        margin-bottom: 70px;
+        margin-top: 100px;
+    }
+
+    .about-section h2 {
+        text-align: left;
+
+    }
+
+    .about-containers {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        gap: 40px;
+    }
+
+    footer {
+        margin-left: 35px;
+        padding: 10px 20px 10px 30px;
+    }
 }

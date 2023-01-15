@@ -297,7 +297,6 @@ footer {
         width: 90px;
         height: 54px;
         font-size: 15px;
-        font-weight: 300;
     }
 
     .primary-titles {
@@ -306,8 +305,8 @@ footer {
 
     /* style header  */
     header {
-        height: 1000px;
-        width: 576px;
+        height: 940px;
+        width: 500px;
     }
 
     /* nav style */
@@ -315,8 +314,10 @@ footer {
         display: block;
     }
 
-    nav h2 {
-        margin-top: 0;
+    .nav h2 {
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-left: 37px;
     }
 
     nav ul {
@@ -349,7 +350,7 @@ footer {
     .quick-section {
         display: block;
         align-items: center;
-        margin: 60px 5px 90px 35px;
+        margin: 60px 5px 90px 10px;
 
     }
 
@@ -400,7 +401,7 @@ footer {
     /* style some section  */
     .some-section {
         width: 100%;
-        margin: 0px 0px 180px 35px;
+        margin: 0px 0px 180px 10px;
 
     }
 
@@ -413,7 +414,7 @@ footer {
 
     /* style sponcor section  */
     .sponcor-section {
-        margin-left: 35px;
+        margin-left: 10px;
         margin-bottom: 100px;
     }
 
@@ -432,7 +433,7 @@ footer {
     /* .about-container style  */
     .about-section {
 
-        margin-left: 35px;
+        margin-left: 10px;
         margin-bottom: 70px;
         margin-top: 100px;
     }
@@ -450,7 +451,7 @@ footer {
     }
 
     footer {
-        margin-left: 35px;
+        margin-left: 10px;
         padding: 10px 20px 10px 30px;
     }
 }

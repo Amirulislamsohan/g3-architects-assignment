@@ -135,3 +135,76 @@ ul li {
 .feature-container p {
     color: #727272;
 }
+
+/*................. style some-section........... */
+.some-section {
+
+    margin: 130px 100px 180px 180px;
+}
+
+.some-section p {
+    margin-top: 24px;
+    margin-bottom: 100px;
+    color: #727272;
+}
+
+.icons {
+    display: flex;
+    gap: 74px;
+}
+
+.icon {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 171.83px;
+    height: 171.83px;
+    padding: 65px 36px 59px 36px;
+    text-align: center;
+
+}
+
+.icon h2 {
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.icon h4 {
+    color: #727272;
+    font-size: 20px;
+}
+
+/* ...................style sponcor section............ */
+.sponcor-section {
+    margin-inline: 100px;
+    margin-bottom: 100px;
+}
+
+.sponcor-header h2 {
+    font-weight: 700;
+
+}
+
+.sponcor-header p {
+    margin-block: 50px;
+}
+
+.sponcor-header {
+    text-align: center;
+}
+
+.sponcor-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* add footer section  */
+footer {
+    height: 100px;
+    width: 100%;
+
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4E7;
+}

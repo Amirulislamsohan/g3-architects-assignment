@@ -74,3 +74,28 @@ ul li {
     margin-top: 50px;
 
 }
+
+/* ................................................style main */
+
+
+/* ...................style quick section  */
+.quick-section {
+    display: flex;
+    align-items: center;
+    margin: 80px 100px 130px 140px;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-right: 80px;
+}
+
+.text-container h2 {
+    margin-bottom: 24px;
+}
+
+.text-container p {
+    margin-bottom: 33px;
+}
